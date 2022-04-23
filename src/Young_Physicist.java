@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class Young_Physicist {
-    public static void main(String args){
+    public static void main(String[] args){
+        sum();
+    }
+    public static void sum(){
         Scanner sc=new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -19,10 +22,10 @@ public class Young_Physicist {
     }
     public static String vector(int sumx, int sumy, int sumz){
         if (sumx == 0 && sumy == 0 && sumz == 0) {
-                return "YES";
-            }
+            return "YES";
+        }
         else {
-                return "NO";
-            }
+            return "NO";
+        }
     }
 }
